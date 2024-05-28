@@ -1,0 +1,23 @@
+######################################################################################
+# This is a generated CSV file representing the addressing in design bram_lutwave
+#
+# Format:
+# Master Segment Name, Address Space, Slave Segment, Offset, Range, Excluded (optional), Included (optional), Unassigned (optional)
+######################################################################################
+
+# 
+# Assignments in Address Space /zynq_ultra_ps_e_0/Data
+#
+SEG_axi_ddr4_mux_Reg,/zynq_ultra_ps_e_0/Data,/axi_ddr4_mux/S_AXI/Reg,0x80000000,64K
+SEG_eth_regs_v1_0_0_reg0,/zynq_ultra_ps_e_0/Data,/ethWrapPort0/eth_regs_v1_0_0/s00_axi/reg0,0x80010000,64K
+SEG_eth_regs_v1_0_0_reg0_1,/zynq_ultra_ps_e_0/Data,/ethWrapPort1/eth_regs_v1_0_0/s00_axi/reg0,0x80020000,64K
+SEG_usp_rf_data_converter_0_Reg,/zynq_ultra_ps_e_0/Data,/usp_rf_data_converter_0/s_axi/Reg,0xA0000000,256K
+SEG_axi_dphi_bram_Mem0_1,/zynq_ultra_ps_e_0/Data,/chan2/axi_dphi_bram/S_AXI/Mem0,0xA0040000,8K
+SEG_axi_dphi_bram_Mem0,/zynq_ultra_ps_e_0/Data,/chan1/axi_dphi_bram/S_AXI/Mem0,0xA004C000,8K
+SEG_dsp_regs_v1_0_0_reg0,/zynq_ultra_ps_e_0/Data,/chan1/dsp_regs_v1_0_0/s00_axi/reg0,0xA0050000,64K
+SEG_axi_wide_ctrl_Reg_1,/zynq_ultra_ps_e_0/Data,/chan2/axi_wide_ctrl/S_AXI/Reg,0xA0060000,64K
+SEG_axi_bram_ctrl_0_Mem0,/zynq_ultra_ps_e_0/Data,/chan1/wide_bram/axi_bram_ctrl_0/S_AXI/Mem0,0xA0070000,32K
+SEG_axi_wide_ctrl_Reg,/zynq_ultra_ps_e_0/Data,/chan1/axi_wide_ctrl/S_AXI/Reg,0xA0080000,64K
+SEG_dsp_regs_v1_0_0_reg0_1,/zynq_ultra_ps_e_0/Data,/chan2/dsp_regs_v1_0_0/s00_axi/reg0,0xA0090000,64K
+SEG_axi_bram_ctrl_0_Mem0_1,/zynq_ultra_ps_e_0/Data,/chan2/wide_bram/axi_bram_ctrl_0/S_AXI/Mem0,0xB0000000,32K
+SEG_ddr4_0_C0_DDR4_ADDRESS_BLOCK,/zynq_ultra_ps_e_0/Data,/ddr4_0/C0_DDR4_MEMORY_MAP/C0_DDR4_ADDRESS_BLOCK,0x400000000,4G
