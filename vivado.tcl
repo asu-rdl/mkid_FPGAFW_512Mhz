@@ -9,7 +9,6 @@
 # Log file: ./vivado.log
 # Journal file: ./vivado.jou
 #-----------------------------------------------------------
-start_gui
 create_project vivadoprj ./vivadoprj -part xczu28dr-ffvg1517-2-e
 set_property board_part xilinx.com:zcu111:part0:1.4 [current_project]
 set_property target_language VHDL [current_project]
@@ -37,7 +36,7 @@ write_hw_platform -fixed -include_bit -force -file /home/cody/Desktop/mKID_FPGAF
 exec mv vivadoprj/bitstream.xsa vivadoprj/bitstream.zip
 exec unzip ./vivadoprj/bitstream.zip
 exec mv bram_lutwave.hwh bitstream.hwh
-exec rm -f zcu111_board.jpeg xsa.xml xsa.json sysdef.xml bram_lutwave.tcl bram_lutwave_ddr4_0_0_microblaze_mcs.hwh bram_lutwave.bda bitstream.mmi
+exec rm -f zcu111_board.jpeg xsa.xml xsa.json sysdef.xml bram_lutwave_ddr4_0_0_microblaze_mcs.hwh bram_lutwave.bda bitstream.mmi
 exec rm -f psu_init.c
 exec rm -f psu_init.h
 exec rm -f psu_init.htm
